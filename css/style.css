@@ -13,10 +13,10 @@ body {
 
 .over_img {
     position: absolute;
-    width: 40%;
+    width: 100%;
     color: white;
     text-align: center;
-    margin: 10% 0 0 24%;
+    margin: -35% 0 0 0;
     text-transform: capitalize;
 }
 
@@ -37,6 +37,7 @@ body {
 
 .header_text {
     color: black;
+    margin-top: 10%;
     text-transform: capitalize;
 }
 
@@ -75,10 +76,10 @@ footer {
 }
 
 /* responsive */
-@media only screen and (max-width:600px){
+@media only screen and (max-width:761px){
     
     .over_img{
-        margin: 0 0 0 0;
+        margin: -85% 0 0 0;
         width: 3%;
     }
 
@@ -87,3 +88,17 @@ footer {
     }
     
 } 
+
+@media only screen and (max-width:560px) {
+    .over_img {
+        margin: -120% 0 0 0;
+        width: 3%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .over_img {
+        margin: -150% 0 0 0;
+        width: 3%;
+    }
+}
